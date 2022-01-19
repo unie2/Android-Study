@@ -8,5 +8,12 @@
 
 
 ### 추가
-* Intent
+* Intent [참고 링크](https://www.crocus.co.kr/1521)
   - 어플리케이션 구성요소 (컴포넌트) 간에 작업 수행을 위한 정보를 전달하는 역할을 한다.
+  - 명시적 인텐트(Explicit Intent)
+    > 실행하고자 하는 Component 클래스명을 Intent에 담는 방법이다.  
+    > 주로 동일 App에서 다른 Component를 실행시킬 때 사용한다.
+    ![명시적 인텐트](https://user-images.githubusercontent.com/54324782/150067646-5637b7bf-a83f-4443-89ae-ba7fb190f98a.png)  
+  
+  - 암시적 인텐트(Implicit Intent)
+    > 다른 응용 프로그램의 컴포넌트를 호출할 때 사용한다.
